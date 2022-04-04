@@ -29,7 +29,7 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            NESTC
+            NEST
             <i class="fab fa-typo3" />
           </Link>
           <div className="menu-icon" onClick={handleClick}>
@@ -69,9 +69,8 @@ function Navbar() {
                 CONNECT
               </Link>
             </li>
-
-            {button && <Button buttonStyle="btn--outline">CONNECT</Button>}
           </ul>
+          {button && <Button buttonStyle="btn--outline">CONNECT</Button>}
         </div>
       </nav>
     </>
